@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bottomMusic.css">
+</head>
+<body>
+	<div id="bottom_music">
+		<div class="bottom_music_main">
+			<i class="icon " id="button_pre"></i>
+			<i class="icon" id="button_play"></i>
+			<i class="icon " id="button_next"></i>
+			<marquee class="tltle"><span id="musicCurrentName">music.mp3</span></marquee>
+			<div id="silder">
+				<div class="time_siler_bg">
+					<div id="silder_pass"></div>
+					<i class="sprites" id="silder_button"></i>
+					<!-- <i class="sprites note note_pink"></i> -->
+				</div>
+			</div>
+				<span id="time">00:00:00</span>
+
+			<div class="volume_silder">
+				<div id="volume_silder_bg">
+					<div id="volume_pass"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<ul class="bottom_music_list">
+		<li class="music_list" musicName="歌曲1" musicSrc="src/music.mp3"></li>
+		<li class="music_list" musicName="歌曲2" musicSrc="src/music.mp3"></li>
+		<li class="music_list" musicName="歌曲3" musicSrc="src/music.mp3"></li>
+	</ul>
+	<audio src="src/music.mp3"></audio>
+</body>
+	<script type="text/javascript" src="js/bottomMusic.js"></script>
+</html>
